@@ -4,34 +4,8 @@ I downloaded the dataset from the [cricsheet website](https://cricsheet.org/down
 
 ## Installation
 
-In this project you 
+In this project you need to first install the jupyter notebook to run the code. After that download the dataset from the above link. After downloading the dataset you need to remove the info.csv from the file. Then create a new notebook in that notebook import pandas and glob library. After importing glob type glob.glob and give the path where you have saved the dataset file after removing all info.csv file and after merging all the file save that dataset. After saving the dataset create a new notebook again and import all the libraries like pandas, numpy, sklearn, and from sklearn import libraries like linear regression, Ridge. 
 
-```bash
-pip install foobar
-```
 
 ## Usage
-
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+In my notebook you can see cell no. 50 where you can give inputs according to you like overs, Run, Run Rate, Wickets etc.
